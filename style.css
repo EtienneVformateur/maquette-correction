@@ -40,7 +40,7 @@ header{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .header-left h3{
     font-size: 1.8rem;
@@ -52,5 +52,49 @@ h1{
 }
 
 .header-right img{
+    width: 70%;
+}
+
+footer{
+    display: flex;
+    background: black;
+    border-radius: 10px;
+}
+
+.footer-left{
+    width: 30%;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    background:blue;
+    color:white;
+    width: 150px;
+    padding: 10px 0;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border:none;
+}
+
+.footer-right{
+    width: 70%;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
     width: 100%;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.img-container img{
+    height: 60px;
 }
